@@ -2,6 +2,8 @@
 
   Tiny ~1200 byte Express-inspired client-side router.
 
+  ctx.save must be called if you want to save the state object.
+
 ```js
 page('/', index)
 page('/user/:user', show)
